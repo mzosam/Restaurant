@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="Styles/services.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <section class = "background" data-aos="fade-down">
+        <div class="transulacent" data-aos="fade-down">
+            <nav>
+                <h2><i class="fa-solid fa-utensils"></i> &nbsp; Restaurant</h2>
+                <div class="links">
+                    <a href="index.html">Home</a>
+                    <a href="About-Us.html">About</a>
+                    <a href="Services.html" style="color: var(--primary-color);">Services</a>
+                    <a href="Menu.html">Menu</a>
+                    <a href="#">Pages</a>
+                    <input type="button" value="Change theme">
+                </div>
+            </nav>
+            <div class="content" data-aos="fade-down">
+                <h1 data-aos="fade-up">Services <br> <br> 
+                    <pre><span>Home  /  Pages  /  About</span></pre>
+                </h1>  
+            </div>
+        </div>  
+    </section>
+
+    <section class="second-section" data-aos="fade-right">
+        <div class="food-menu">
+            <span>------- Our Services -------</span>
+            <h3>Explore Our Services</h3>
+        </div>
+        <div class="container" data-aos="fade-down">
+            <div class="box one">
+                <i class="fa-solid fa-user-tie"></i>
+                <h3>Master Chefs</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae rem, eum reiciendis voluptates officia iusto! </p>
+            </div>
+            <div class="box two">
+                <i class="fa-solid fa-utensils"></i>
+                <h3>Quality Food</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque odit quaerat possimus doloribus quia optio!</p>
+            </div>
+            <div class="box three">
+                <i class="fa-solid fa-cart-plus"></i>
+                <h3>Online Order</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, quasi! Officiis unde nostrum reprehenderit fugit.</p>
+            </div>
+            <div class="box four">
+                <i class="fa-solid fa-headset"></i>
+                <h3>24 / 7</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ut debitis pariatur repellat molestias quis?</p>
+            </div>
+              
+            <div class="box six">
+                <i class="fa-solid fa-user-tie"></i>
+                <h3>Master Chefs</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae rem, eum reiciendis voluptates officia iusto! </p>
+            </div>
+            <div class="box two">
+                <i class="fa-solid fa-utensils"></i>
+                <h3>Quality Food</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque odit quaerat possimus doloribus quia optio!</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="section-eight" data-aos="fade-down">
+        <table>
+            <tr>
+                <th>Company ----------</th>
+                <th>Contact ----------</th>
+                <th>Opening ----------</th>
+                <th>Newsletter ----------</th>
+            </tr>
+            <tr>
+                <td><i class="fa-solid fa-chevron-right"></i> About us</td>
+                <td><i class="fa-solid fa-location-dot"></i> Location, City, Country</td>
+                <td>Monday - Saturday</td>
+                <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</td>
+            </tr>
+            <tr>
+                <td><i class="fa-solid fa-chevron-right"></i> Contact Us</td>
+                <td><i class="fa-solid fa-phone"></i> +27 556 8464</td>
+                <td>09:00AM - 04:30PM</td>
+                <td rowspan="3">
+                    <div class="login">
+                        <input type="text" placeholder="Your Email">
+                        <input type="button" value="Sign Up">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><i class="fa-solid fa-chevron-right"></i> Reservation</td>
+                <td><i class="fa-solid fa-envelope"></i> info@gmail.co.za</td>
+                <td>Sunday</td>
+            
+            </tr>
+            <tr>
+                <td><i class="fa-solid fa-chevron-right"></i> Privacy Policy</td>
+                <td></td>
+                <td>10AM - 04PM</td>
+            </tr>
+            <tr>
+                <td><i class="fa-solid fa-chevron-right"></i> Terms & Conditions</td>
+                 <td class="td-icons">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </td>
+                <td></td>
+                <td></td>
+               
+            </tr>
+        </table>
+            <hr>
+        <div class="section-eight-footer" data-aos="fade-down">
+            <div class="copyright">
+                <small>&copy; Your Site Nats. All Right Reserved. Copyrighted By Free Website Code</small>
+            </div>
+            <div class="navigation-links">
+                    <a href="#">Home</a>
+                    <a href="#">Contacts</a>
+                    <a href="#">Help</a>
+                    <a href="#">FQAs</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <script>
+        const colorInput = document.querySelector('input');
+        const colorButton = document.querySelector('input');
+        const coloVariable = '--primary-color';
+
+        colorButton.addEventListener('click', _ =>{
+            document.documentElement.style.setProperty(coloVariable, 'rgb(32, 233, 32)');
+        })
+    </script>
+
+</body>
+</html>
